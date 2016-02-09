@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CF947AA1C69C737005CE0C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF947A91C69C737005CE0C2 /* AppDelegate.swift */; };
+		8CF947AC1C69C737005CE0C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF947AB1C69C737005CE0C2 /* ViewController.swift */; };
+		8CF947AF1C69C737005CE0C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CF947AD1C69C737005CE0C2 /* Main.storyboard */; };
+		8CF947B11C69C737005CE0C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CF947B01C69C737005CE0C2 /* Assets.xcassets */; };
+		8CF947B41C69C737005CE0C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CF947B21C69C737005CE0C2 /* LaunchScreen.storyboard */; };
+		8CF947BF1C69C737005CE0C2 /* monsterPetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF947BE1C69C737005CE0C2 /* monsterPetTests.swift */; };
+		8CF947CA1C69C737005CE0C2 /* monsterPetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF947C91C69C737005CE0C2 /* monsterPetUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CF947BB1C69C737005CE0C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CF9479E1C69C737005CE0C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CF947A51C69C737005CE0C2;
+			remoteInfo = monsterPet;
+		};
+		8CF947C61C69C737005CE0C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CF9479E1C69C737005CE0C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CF947A51C69C737005CE0C2;
+			remoteInfo = monsterPet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8CF947A61C69C737005CE0C2 /* monsterPet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = monsterPet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF947A91C69C737005CE0C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8CF947AB1C69C737005CE0C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8CF947AE1C69C737005CE0C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CF947B01C69C737005CE0C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CF947B31C69C737005CE0C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CF947B51C69C737005CE0C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CF947BA1C69C737005CE0C2 /* monsterPetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = monsterPetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF947BE1C69C737005CE0C2 /* monsterPetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = monsterPetTests.swift; sourceTree = "<group>"; };
+		8CF947C01C69C737005CE0C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CF947C51C69C737005CE0C2 /* monsterPetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = monsterPetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF947C91C69C737005CE0C2 /* monsterPetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = monsterPetUITests.swift; sourceTree = "<group>"; };
+		8CF947CB1C69C737005CE0C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CF947A31C69C737005CE0C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF947B71C69C737005CE0C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF947C21C69C737005CE0C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CF9479D1C69C737005CE0C2 = {
+			isa = PBXGroup;
+			children = (
+				8CF947A81C69C737005CE0C2 /* monsterPet */,
+				8CF947BD1C69C737005CE0C2 /* monsterPetTests */,
+				8CF947C81C69C737005CE0C2 /* monsterPetUITests */,
+				8CF947A71C69C737005CE0C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CF947A71C69C737005CE0C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CF947A61C69C737005CE0C2 /* monsterPet.app */,
+				8CF947BA1C69C737005CE0C2 /* monsterPetTests.xctest */,
+				8CF947C51C69C737005CE0C2 /* monsterPetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CF947A81C69C737005CE0C2 /* monsterPet */ = {
+			isa = PBXGroup;
+			children = (
+				8CF947A91C69C737005CE0C2 /* AppDelegate.swift */,
+				8CF947AB1C69C737005CE0C2 /* ViewController.swift */,
+				8CF947AD1C69C737005CE0C2 /* Main.storyboard */,
+				8CF947B01C69C737005CE0C2 /* Assets.xcassets */,
+				8CF947B21C69C737005CE0C2 /* LaunchScreen.storyboard */,
+				8CF947B51C69C737005CE0C2 /* Info.plist */,
+			);
+			path = monsterPet;
+			sourceTree = "<group>";
+		};
+		8CF947BD1C69C737005CE0C2 /* monsterPetTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CF947BE1C69C737005CE0C2 /* monsterPetTests.swift */,
+				8CF947C01C69C737005CE0C2 /* Info.plist */,
+			);
+			path = monsterPetTests;
+			sourceTree = "<group>";
+		};
+		8CF947C81C69C737005CE0C2 /* monsterPetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8CF947C91C69C737005CE0C2 /* monsterPetUITests.swift */,
+				8CF947CB1C69C737005CE0C2 /* Info.plist */,
+			);
+			path = monsterPetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CF947A51C69C737005CE0C2 /* monsterPet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CF947CE1C69C737005CE0C2 /* Build configuration list for PBXNativeTarget "monsterPet" */;
+			buildPhases = (
+				8CF947A21C69C737005CE0C2 /* Sources */,
+				8CF947A31C69C737005CE0C2 /* Frameworks */,
+				8CF947A41C69C737005CE0C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = monsterPet;
+			productName = monsterPet;
+			productReference = 8CF947A61C69C737005CE0C2 /* monsterPet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CF947B91C69C737005CE0C2 /* monsterPetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CF947D11C69C737005CE0C2 /* Build configuration list for PBXNativeTarget "monsterPetTests" */;
+			buildPhases = (
+				8CF947B61C69C737005CE0C2 /* Sources */,
+				8CF947B71C69C737005CE0C2 /* Frameworks */,
+				8CF947B81C69C737005CE0C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CF947BC1C69C737005CE0C2 /* PBXTargetDependency */,
+			);
+			name = monsterPetTests;
+			productName = monsterPetTests;
+			productReference = 8CF947BA1C69C737005CE0C2 /* monsterPetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8CF947C41C69C737005CE0C2 /* monsterPetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CF947D41C69C737005CE0C2 /* Build configuration list for PBXNativeTarget "monsterPetUITests" */;
+			buildPhases = (
+				8CF947C11C69C737005CE0C2 /* Sources */,
+				8CF947C21C69C737005CE0C2 /* Frameworks */,
+				8CF947C31C69C737005CE0C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CF947C71C69C737005CE0C2 /* PBXTargetDependency */,
+			);
+			name = monsterPetUITests;
+			productName = monsterPetUITests;
+			productReference = 8CF947C51C69C737005CE0C2 /* monsterPetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CF9479E1C69C737005CE0C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "DuBay Designs";
+				TargetAttributes = {
+					8CF947A51C69C737005CE0C2 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = FYBTU7NK34;
+					};
+					8CF947B91C69C737005CE0C2 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = FYBTU7NK34;
+						TestTargetID = 8CF947A51C69C737005CE0C2;
+					};
+					8CF947C41C69C737005CE0C2 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = FYBTU7NK34;
+						TestTargetID = 8CF947A51C69C737005CE0C2;
+					};
+				};
+			};
+			buildConfigurationList = 8CF947A11C69C737005CE0C2 /* Build configuration list for PBXProject "monsterPet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CF9479D1C69C737005CE0C2;
+			productRefGroup = 8CF947A71C69C737005CE0C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CF947A51C69C737005CE0C2 /* monsterPet */,
+				8CF947B91C69C737005CE0C2 /* monsterPetTests */,
+				8CF947C41C69C737005CE0C2 /* monsterPetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CF947A41C69C737005CE0C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF947B41C69C737005CE0C2 /* LaunchScreen.storyboard in Resources */,
+				8CF947B11C69C737005CE0C2 /* Assets.xcassets in Resources */,
+				8CF947AF1C69C737005CE0C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF947B81C69C737005CE0C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF947C31C69C737005CE0C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CF947A21C69C737005CE0C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF947AC1C69C737005CE0C2 /* ViewController.swift in Sources */,
+				8CF947AA1C69C737005CE0C2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF947B61C69C737005CE0C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF947BF1C69C737005CE0C2 /* monsterPetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF947C11C69C737005CE0C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF947CA1C69C737005CE0C2 /* monsterPetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CF947BC1C69C737005CE0C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CF947A51C69C737005CE0C2 /* monsterPet */;
+			targetProxy = 8CF947BB1C69C737005CE0C2 /* PBXContainerItemProxy */;
+		};
+		8CF947C71C69C737005CE0C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CF947A51C69C737005CE0C2 /* monsterPet */;
+			targetProxy = 8CF947C61C69C737005CE0C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CF947AD1C69C737005CE0C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CF947AE1C69C737005CE0C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CF947B21C69C737005CE0C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CF947B31C69C737005CE0C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CF947CC1C69C737005CE0C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CF947CD1C69C737005CE0C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CF947CF1C69C737005CE0C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = monsterPet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.designs.dubay.monsterPet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CF947D01C69C737005CE0C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = monsterPet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.designs.dubay.monsterPet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8CF947D21C69C737005CE0C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = monsterPetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.designs.dubay.monsterPetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/monsterPet.app/monsterPet";
+			};
+			name = Debug;
+		};
+		8CF947D31C69C737005CE0C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = monsterPetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.designs.dubay.monsterPetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/monsterPet.app/monsterPet";
+			};
+			name = Release;
+		};
+		8CF947D51C69C737005CE0C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = monsterPetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.designs.dubay.monsterPetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = monsterPet;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8CF947D61C69C737005CE0C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = monsterPetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.designs.dubay.monsterPetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = monsterPet;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CF947A11C69C737005CE0C2 /* Build configuration list for PBXProject "monsterPet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF947CC1C69C737005CE0C2 /* Debug */,
+				8CF947CD1C69C737005CE0C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CF947CE1C69C737005CE0C2 /* Build configuration list for PBXNativeTarget "monsterPet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF947CF1C69C737005CE0C2 /* Debug */,
+				8CF947D01C69C737005CE0C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8CF947D11C69C737005CE0C2 /* Build configuration list for PBXNativeTarget "monsterPetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF947D21C69C737005CE0C2 /* Debug */,
+				8CF947D31C69C737005CE0C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8CF947D41C69C737005CE0C2 /* Build configuration list for PBXNativeTarget "monsterPetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF947D51C69C737005CE0C2 /* Debug */,
+				8CF947D61C69C737005CE0C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CF9479E1C69C737005CE0C2 /* Project object */;
+}
