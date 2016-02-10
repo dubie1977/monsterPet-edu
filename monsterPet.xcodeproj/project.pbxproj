@@ -14,6 +14,11 @@
 		8CF947B41C69C737005CE0C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CF947B21C69C737005CE0C2 /* LaunchScreen.storyboard */; };
 		8CF947BF1C69C737005CE0C2 /* monsterPetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF947BE1C69C737005CE0C2 /* monsterPetTests.swift */; };
 		8CF947CA1C69C737005CE0C2 /* monsterPetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF947C91C69C737005CE0C2 /* monsterPetUITests.swift */; };
+		8CF947D91C6B094A005CE0C2 /* bite.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8CF947D81C6B094A005CE0C2 /* bite.wav */; };
+		8CF947DB1C6B0952005CE0C2 /* cave-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8CF947DA1C6B0952005CE0C2 /* cave-music.mp3 */; };
+		8CF947DD1C6B095C005CE0C2 /* death.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8CF947DC1C6B095C005CE0C2 /* death.wav */; };
+		8CF947DF1C6B096A005CE0C2 /* heart.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8CF947DE1C6B096A005CE0C2 /* heart.wav */; };
+		8CF947E11C6B097E005CE0C2 /* skull.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8CF947E01C6B097E005CE0C2 /* skull.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		8CF947C51C69C737005CE0C2 /* monsterPetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = monsterPetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CF947C91C69C737005CE0C2 /* monsterPetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = monsterPetUITests.swift; sourceTree = "<group>"; };
 		8CF947CB1C69C737005CE0C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CF947D81C6B094A005CE0C2 /* bite.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bite.wav; sourceTree = "<group>"; };
+		8CF947DA1C6B0952005CE0C2 /* cave-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cave-music.mp3"; sourceTree = "<group>"; };
+		8CF947DC1C6B095C005CE0C2 /* death.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = death.wav; sourceTree = "<group>"; };
+		8CF947DE1C6B096A005CE0C2 /* heart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = heart.wav; sourceTree = "<group>"; };
+		8CF947E01C6B097E005CE0C2 /* skull.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = skull.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,7 @@
 		8CF947A81C69C737005CE0C2 /* monsterPet */ = {
 			isa = PBXGroup;
 			children = (
+				8CF947D71C6B093C005CE0C2 /* sounds */,
 				8CF947A91C69C737005CE0C2 /* AppDelegate.swift */,
 				8CF947AB1C69C737005CE0C2 /* ViewController.swift */,
 				8CF947AD1C69C737005CE0C2 /* Main.storyboard */,
@@ -123,6 +134,18 @@
 				8CF947CB1C69C737005CE0C2 /* Info.plist */,
 			);
 			path = monsterPetUITests;
+			sourceTree = "<group>";
+		};
+		8CF947D71C6B093C005CE0C2 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				8CF947E01C6B097E005CE0C2 /* skull.wav */,
+				8CF947DE1C6B096A005CE0C2 /* heart.wav */,
+				8CF947DC1C6B095C005CE0C2 /* death.wav */,
+				8CF947DA1C6B0952005CE0C2 /* cave-music.mp3 */,
+				8CF947D81C6B094A005CE0C2 /* bite.wav */,
+			);
+			name = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +255,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CF947E11C6B097E005CE0C2 /* skull.wav in Resources */,
+				8CF947D91C6B094A005CE0C2 /* bite.wav in Resources */,
+				8CF947DD1C6B095C005CE0C2 /* death.wav in Resources */,
+				8CF947DF1C6B096A005CE0C2 /* heart.wav in Resources */,
+				8CF947DB1C6B0952005CE0C2 /* cave-music.mp3 in Resources */,
 				8CF947B41C69C737005CE0C2 /* LaunchScreen.storyboard in Resources */,
 				8CF947B11C69C737005CE0C2 /* Assets.xcassets in Resources */,
 				8CF947AF1C69C737005CE0C2 /* Main.storyboard in Resources */,
